@@ -2,6 +2,8 @@
 -- https://github.com/rmagatti/auto-session
 --
 
+-- MEMO: セッション保存関連、使い方がよく分からない
+
 return {
   'rmagatti/auto-session',
   lazy = false,
@@ -13,13 +15,8 @@ return {
       auto_restore_enabled = false,
       auto_session_suppress_dirs = { '~/', '~/Dev/', '~/Downloads', '~/Documents', '~/Desktop/' },
     })
-
-    local keymap = vim.keymap
-
-    keymap.set("n", "<leader>wr", "<cmd>SessionRestore<CR>", { desc = "Restore session for cwd" })
-    keymap.set("n", "<leader>ws", "<cmd>SessionSave<CR>",    { desc = "Save session for auto session root dir" })
-    keymap.set("n", "<leader>wl", "<cmd>SessionSearch<CR>",  { desc = "List session" })
   end,
 }
 
 
+--

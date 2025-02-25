@@ -1,12 +1,12 @@
 --
---
+-- https://github.com/echasnovski/mini.pairs
 --
 
 return {
   'echasnovski/mini.pairs',
   version = false,
 
-  enabled = false,
+  enabled = true,
 
   opts = {
     modes = {
@@ -15,7 +15,7 @@ return {
       terminal = false
     },
     skip_next = [=[[%w%%%'%[%"%.%`%$]]=],
-    skip_ts = { "string" },
+    skip_ts = { 'string' },
     skip_unbalanced = true,
     markdown = true,
 
@@ -28,12 +28,12 @@ return {
       [']'] = { action = 'close', pair = '[]', neigh_pattern = '[^\\].' },
       ['}'] = { action = 'close', pair = '{}', neigh_pattern = '[^\\].' },
 
-      ['"'] = { action = 'closeopen', pair = '""', neigh_pattern = '[^\\].', register = { cr = false } },
+      ['"'] = { action = 'closeopen', pair = '""', neigh_pattern = '[^\\].',   register = { cr = false } },
       ["'"] = { action = 'closeopen', pair = "''", neigh_pattern = '[^%a\\].', register = { cr = false } },
-      ['`'] = { action = 'closeopen', pair = '``', neigh_pattern = '[^\\].', register = { cr = false } },
+      ['`'] = { action = 'closeopen', pair = '``', neigh_pattern = '[^\\].',   register = { cr = false } },
     },
   }
 }
 
 
-
+--

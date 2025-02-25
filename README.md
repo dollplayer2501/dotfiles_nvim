@@ -16,7 +16,8 @@ The reasons are as follows:
 - [フレームワークをやめて 1 から neovim をセットアップしたら理解がとても進んだという話](https://zenn.dev/ganariya/articles/setup-neovim-from-scratch-instead-of-framework)  
 of [ganyariya@Zenn.dev](https://zenn.dev/ganariya)
 - [Josean Martinez - How I Setup Neovim To Make It AMAZING in 2024: The Ultimate Guide - YouTube](https://www.youtube.com/watch?v=6pAG3BHurdM)  
-and [How I Setup Neovim On My Mac To Make it AMAZING in 2024](https://www.josean.com/posts/how-to-setup-neovim-2024)
+and [How I Setup Neovim On My Mac To Make it AMAZING in 2024](https://www.josean.com/posts/how-to-setup-neovim-2024)  
+I haven't installed anything since nvim-cmp (except for plugins that don't depend on it), but it's still useful to me.
 
 
 # Execution environment:
@@ -31,6 +32,6 @@ As of February 2025.
   <dt>DE/WM</dt>
   <dd>Qtile on Xfce4</dd>
   <dt>Shell, etc.</dt>
-  <dd>fish shell, Kitty, Alacritty, Starship, Neovim with lazy.nvim, Ranger with Überzug++, etc.</dd>
+  <dd>Kitty, Alacritty, fish shell with fisher, Starship, Neovim with lazy.nvim, Ranger with Überzug++, etc.</dd>
 </dl>
 

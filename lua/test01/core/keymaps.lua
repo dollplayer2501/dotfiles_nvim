@@ -45,6 +45,12 @@ keymap.set('n', '<leader>tp', '<cmd>tabp<CR>',     { desc = 'Go to previous tab'
 keymap.set('n', '<leader>tf', '<cmd>tabnew %<CR>', { desc = 'Open current buffer in new tab' })
 
 
+-- session
+keymap.set('n', '<leader>wr', '<cmd>SessionRestore<CR>', { desc = 'Restore session for cwd' })
+keymap.set('n', '<leader>ws', '<cmd>SessionSave<CR>',    { desc = 'Save session for auto session root dir' })
+keymap.set('n', '<leader>wl', '<cmd>SessionSearch<CR>',  { desc = 'List session' })
+
+
 -- clear search highlights, normal mode
 keymap.set('n', '<leader>nh', ':nohl<CR>', { desc = 'Clear search highlights' })
 
@@ -62,7 +68,23 @@ keymap.set('n', '<leader>zl', '<cmd>Lazy<CR>',                   { desc = 'Toggl
 keymap.set('n', '<leader>zm', '<cmd>message<CR>',                { desc = 'Display (error) message' })
 
 
---
+
+
+keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<CR>',     { desc = 'List buffers' })
+keymap.set('n', '<leader>fc', '<cmd>Telescope grep_string<CR>', { desc = 'Find string under cursor in cwd' })
+keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<CR>',  { desc = 'Fuzzy find files in cwd' })
+keymap.set('n', '<leader>fr', '<cmd>Telescope oldfiles<CR>',    { desc = 'Fuzzy find recent files' })
+keymap.set('n', '<leader>fs', '<cmd>Telescope live_grep<CR>',   { desc = 'Find string in cwd' })
+-- TODO: TODOタグのみ表示させることができるの？
+-- { "<leader>xt", "<cmd>Trouble todo toggle<CR>", desc = "Todo (Trouble)" },
+-- { "<leader>xT", "<cmd>Trouble todo toggle filter = {tag = {TODO,FIX,FIXME}}<CR>", desc = "Todo/Fix/Fixme (Trouble)" },
+-- { "<leader>st", "<cmd>TodoTelescope<CR>", desc = "Todo" },
+-- { "<leader>sT", "<cmd>TodoTelescope keywords=TODO,FIX,FIXME<CR>", desc = "Todo/Fix/Fixme" },
+keymap.set('n', '<leader>ft', '<cmd>TodoTelescope<CR>',         { desc = 'Find todos' })
+keymap.set('n', '<leader>fz', '<cmd>Telescope colorscheme<CR>', { desc = 'List colorscheme with preview' })
+
+
+
 -- keymap.set('n', '<leader>fn', '<cmd>Neotree toggle<CR>', { desc = 'Toggle Neo-tree' })
 
 

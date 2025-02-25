@@ -18,6 +18,7 @@
 -- TODO: fzf-lua
 -- TODO: コマンドボックスのフォントが斜体なので、普通にする
 -- TODO: https://github.com/FabianWirth/search.nvim  Telescopeでタブを扱う
+-- TODO: 行末のスペース2文字をハイライトさせる
 
 
 -- DONE: boo-colorscheme-nvim

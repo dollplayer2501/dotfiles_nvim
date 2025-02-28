@@ -1,5 +1,7 @@
 # About:
 
+<a href="https://github.com/dollplayer2501/dollplayer2501/blob/main/EndeavourOS_Qtile_2025-02-28_22-47-11.png"><img src="https://raw.githubusercontent.com/dollplayer2501/dollplayer2501/refs/heads/main/EndeavourOS_Qtile_2025-02-28_22-47-11.png" width=200></a> <a href="https://github.com/dollplayer2501/dollplayer2501/blob/main/EndeavourOS_Qtile_2025-02-28_22-49-21.png"><img src="https://raw.githubusercontent.com/dollplayer2501/dollplayer2501/refs/heads/main/EndeavourOS_Qtile_2025-02-28_22-49-21.png" width=200></a> <a href="https://github.com/dollplayer2501/dollplayer2501/blob/main/EndeavourOS_Qtile_2025-02-28_22-51-18.png"><img src="https://raw.githubusercontent.com/dollplayer2501/dollplayer2501/refs/heads/main/EndeavourOS_Qtile_2025-02-28_22-51-18.png" width=200></a>
+
 My Neovim configuration files.
 
 I don't incorporate language parsers, as a rule.  

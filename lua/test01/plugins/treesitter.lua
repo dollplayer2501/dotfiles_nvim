@@ -57,6 +57,8 @@ return {
         'css',
         'html',
         'pug',
+        -- 'nunjucks',
+        'twig',
         'scss',
       },
       incremental_selection = {

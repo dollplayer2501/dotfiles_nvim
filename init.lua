@@ -20,6 +20,7 @@
 -- TODO: https://github.com/FabianWirth/search.nvim  Telescopeでタブを扱う
 -- TODO: 行末のスペース2文字をハイライトさせる
 -- TODO: マークダウンファイルのプレビュー（ブラウザを使う、とかでなく？）
+-- TODO: telescpoe lazy https://github.com/tsakirist/telescope-lazy.nvim
 
 
 -- DONE: boo-colorscheme-nvim
@@ -36,6 +37,15 @@ require('test01.lazy')
 -- MEMO: カラースキームの決定はここで
 -- 総合的に見て、夜東京以外、どうだろう感
 vim.cmd('colorscheme tokyonight-storm')
+
+
+-- MEMO: 多分Nunjucksは存在しない
+vim.treesitter.language.register('twig', { 'njk' })
+vim.filetype.add({
+  extension = {
+    njk = 'twig',
+  },
+})
 
 
 --

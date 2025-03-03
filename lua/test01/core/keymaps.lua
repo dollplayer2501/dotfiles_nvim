@@ -80,7 +80,9 @@ keymap.set('n', '<leader>fs', '<cmd>Telescope live_grep<CR>',   { desc = 'Find s
 -- { "<leader>xT", "<cmd>Trouble todo toggle filter = {tag = {TODO,FIX,FIXME}}<CR>", desc = "Todo/Fix/Fixme (Trouble)" },
 -- { "<leader>st", "<cmd>TodoTelescope<CR>", desc = "Todo" },
 -- { "<leader>sT", "<cmd>TodoTelescope keywords=TODO,FIX,FIXME<CR>", desc = "Todo/Fix/Fixme" },
-keymap.set('n', '<leader>ft', '<cmd>TodoTelescope<CR>',         { desc = 'Find todos' })
+keymap.set('n', '<leader>ftt', '<cmd>TodoTelescope keywords=TODO<CR>', { desc = 'Find todo' })
+keymap.set('n', '<leader>ftm', '<cmd>TodoTelescope keywords=MEMO<CR>', { desc = 'Find memo' })
+
 keymap.set('n', '<leader>fz', '<cmd>Telescope colorscheme<CR>', { desc = 'List colorscheme with preview' })
 
 

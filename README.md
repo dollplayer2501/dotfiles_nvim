@@ -1,3 +1,9 @@
+> [!NOTE]
+> I think I'll switch to [LazyVim](https://www.lazyvim.org/).  
+> I conclude that building such a unique configuration file was worthwhile as a preparation for the transition.  
+> I plan to use hoge without customizing it as much as possible from now on.  
+> For this reason, I am not sure whether to upload it as a NeoVim dot file.
+
 # About:
 
 <a href="https://github.com/dollplayer2501/dollplayer2501/blob/main/screenshot..neovim/EndeavourOS_Qtile_2025-02-28_22-47-11.png">
